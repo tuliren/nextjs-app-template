@@ -1,5 +1,7 @@
 # Nextjs App Template
 
+[![Build](https://github.com/tuliren/nextjs-app-template/actions/workflows/build.yaml/badge.svg)](https://github.com/tuliren/nextjs-app-template/actions/workflows/build.yaml)
+
 ## Development
 
 ### Dev credential
