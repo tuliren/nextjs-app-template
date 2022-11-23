@@ -29,5 +29,7 @@ jobs:
         run: |
           yarn eslint .
           yarn prettier:check
+      - name: Run tests
+        run: yarn test
       - name: Build next app
         run: yarn build
