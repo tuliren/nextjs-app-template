@@ -7,3 +7,5 @@ tasks:
       name: Jest Coverage
     static_hosting:
       path: coverage/lcov-report
+  job-runtime:
+    job_runtime: {}
