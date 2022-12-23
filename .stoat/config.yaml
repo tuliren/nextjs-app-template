@@ -1,11 +1,11 @@
 ---
 version: 1
 enabled: true
-tasks:
-  jest-coverage:
-    metadata:
-      name: Jest Coverage
-    static_hosting:
+plugins:
+  static_hosting:
+    jest-coverage:
+      metadata:
+        name: Jest Coverage
       path: coverage/lcov-report
-  job-runtime:
-    job_runtime: {}
+  job_runtime:
+    enabled: true
