@@ -57,7 +57,7 @@
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-mantine": "2.0.0",
-    "eslint-config-next": "13.0.6",
+    "eslint-config-next": "13.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^27.1.5",
