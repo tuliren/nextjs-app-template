@@ -9789,10 +9789,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
   integrity sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==
 
-next-plausible@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-3.7.0.tgz#6500eabd2b50880730b567d5f6ab319dbc0dbac6"
-  integrity sha512-YQ/b+BcPIZHOsQPB+YkAAzP4l9oELt3qKazPYvuNr5WRHRDknpyIkge4hf6aeuM+Wg4sdxaY7DfbbAUZlgREuw==
+next-plausible@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-3.7.1.tgz#91fcf398b09cc7b3b0b9ad260b0c62d48f13a8f0"
+  integrity sha512-I4WjbuXPfQ3ijbzOC1lv1GNx6TTV0ZevR6YYs5vGZIyMz0z4LuN68x08a+ag2XNb1yy9dA1NkwV2hPzbfx8Gtw==
 
 next-tick@^1.1.0:
   version "1.1.0"
