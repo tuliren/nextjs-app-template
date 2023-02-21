@@ -23,7 +23,7 @@
     "@mantine/core": "^5.10.3",
     "@mantine/form": "^5.10.3",
     "@mantine/hooks": "^5.10.3",
-    "@mantine/next": "^5.10.3",
+    "@mantine/next": "^5.10.4",
     "@mantine/notifications": "^5.10.3",
     "@supabase/supabase-js": "^2.7.1",
     "fs": "^0.0.1-security",
