@@ -25,7 +25,7 @@
     "@mantine/hooks": "^5.10.4",
     "@mantine/next": "^5.10.4",
     "@mantine/notifications": "^5.10.4",
-    "@supabase/supabase-js": "^2.7.1",
+    "@supabase/supabase-js": "^2.8.0",
     "fs": "^0.0.1-security",
     "next": "13.1.6",
     "next-plausible": "^3.7.2",
