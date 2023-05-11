@@ -2,7 +2,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { AppShell, Container, MantineProvider } from '@mantine/core';
 import PlausibleProvider from 'next-plausible';
-import { NotificationsProvider } from '@mantine/notifications';
+import { Notifications } from '@mantine/notifications';
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -29,13 +29,12 @@ export default function App(props: AppProps) {
             colorScheme: 'light',
           }}
         >
-          <NotificationsProvider>
-            <AppShell padding="lg" header={<></>} footer={<></>}>
-              <Container size="xl">
-                <Component {...pageProps} />
-              </Container>
-            </AppShell>
-          </NotificationsProvider>
+          <Notifications />
+          <AppShell padding="lg" header={<></>} footer={<></>}>
+            <Container size="xl">
+              <Component {...pageProps} />
+            </Container>
+          </AppShell>
         </MantineProvider>
       </PlausibleProvider>
     </>
