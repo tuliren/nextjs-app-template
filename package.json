@@ -30,7 +30,7 @@
     "@mantine/nprogress": "^6.0.10",
     "@mantine/spotlight": "^6.0.10",
     "@mantine/tiptap": "^6.0.10",
-    "@supabase/supabase-js": "^2.8.0",
+    "@supabase/supabase-js": "^2.31.0",
     "@tabler/icons-react": "^2.18.0",
     "@tiptap/extension-link": "^2.0.3",
     "@tiptap/react": "^2.0.3",
