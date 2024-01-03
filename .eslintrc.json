@@ -20,6 +20,12 @@
   },
   "rules": {
     "import/no-cycle": "error",
+    "import/newline-after-import": [
+      "error",
+      {
+        "count": 1
+      }
+    ],
     "@typescript-eslint/no-inferrable-types": "off",
     "prefer-const": "warn"
   },
