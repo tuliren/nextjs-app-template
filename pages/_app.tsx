@@ -1,8 +1,8 @@
+import { AppShell, Container, MantineProvider } from '@mantine/core';
+import { Notifications } from '@mantine/notifications';
+import PlausibleProvider from 'next-plausible';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { AppShell, Container, MantineProvider } from '@mantine/core';
-import PlausibleProvider from 'next-plausible';
-import { Notifications } from '@mantine/notifications';
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;

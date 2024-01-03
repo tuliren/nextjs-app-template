@@ -1,7 +1,7 @@
-import { NextPage } from 'next';
 import { Button, Card, Group, SimpleGrid, Text } from '@mantine/core';
-import { useRouter } from 'next/router';
+import { NextPage } from 'next';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 const Error404: NextPage = () => {
   const router = useRouter();
