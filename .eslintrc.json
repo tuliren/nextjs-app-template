@@ -1,9 +1,34 @@
 {
   "extends": [
     "next/core-web-vitals",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:jest/recommended",
     "prettier"
   ],
+  "plugins": [
+    "@typescript-eslint",
+    "jest"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "jest": true,
+    "node": true
+  },
   "rules": {
-    "import/no-cycle": "error"
+    "import/no-cycle": "error",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "prefer-const": "warn"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.json"
+      }
+    }
   }
 }

@@ -7,5 +7,9 @@ plugins:
       metadata:
         name: Jest Coverage
       path: coverage/lcov-report
+    jest-report:
+      metadata:
+        name: Jest Report
+      path: tests/test-report.html
   job_runtime:
     enabled: true
