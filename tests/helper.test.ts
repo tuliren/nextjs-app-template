@@ -1,6 +1,6 @@
 import { expect, test } from '@jest/globals';
 
-import { add } from '../src/helper';
+import { add } from '@/helper';
 
 test('add', () => {
   expect(add(1, 2)).toBe(3);
