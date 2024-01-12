@@ -3,10 +3,9 @@ import { Notifications } from '@mantine/notifications';
 import PlausibleProvider from 'next-plausible';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { FC } from 'react';
 
-export default function App(props: AppProps) {
-  const { Component, pageProps } = props;
-
+const App: FC<AppProps> = ({ Component, pageProps }) => {
   // Uses NEXT_PUBLIC_VERCEL_ENV instead of NODE_ENV so we can exclude previews from analytics collection.
   // see https://vercel.com/docs/concepts/projects/environment-variables#system-environment-variables
   const enableAnalytics = process.env.NEXT_PUBLIC_VERCEL_ENV === 'production';
@@ -39,4 +38,6 @@ export default function App(props: AppProps) {
       </PlausibleProvider>
     </>
   );
-}
+};
+
+export default App;
