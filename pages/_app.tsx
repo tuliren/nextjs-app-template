@@ -1,7 +1,7 @@
 import { AppShell, Container, MantineProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import PlausibleProvider from 'next-plausible';
-import { AppProps } from 'next/app';
+import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { FC } from 'react';
 
