@@ -37,18 +37,18 @@
     "@tiptap/starter-kit": "^2.0.3",
     "dayjs": "^1.11.7",
     "fs": "^0.0.1-security",
-    "next": "13.4.12",
-    "next-plausible": "^3.7.2",
+    "next": "13.5.6",
+    "next-plausible": "^3.12.0",
     "pretty-ms": "^8.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-markdown": "^8.0.5",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
-    "@next/eslint-plugin-next": "^13.2.1",
+    "@next/eslint-plugin-next": "^14.0.4",
     "@storybook/addon-actions": "^7.0.10",
     "@storybook/addon-essentials": "^7.0.10",
     "@storybook/addon-interactions": "^7.0.10",
@@ -59,8 +59,8 @@
     "@storybook/testing-library": "^0.1.0",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "20.1.2",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
     "@types/uuid": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "babel-loader": "^9.1.2",
@@ -69,7 +69,7 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-mantine": "2.0.0",
-    "eslint-config-next": "13.4.1",
+    "eslint-config-next": "^14.0.4",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.27.5",
@@ -89,5 +89,6 @@
     "*.{ts,tsx}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
