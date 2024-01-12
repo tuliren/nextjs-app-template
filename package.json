@@ -89,5 +89,6 @@
     "*.{ts,tsx}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
