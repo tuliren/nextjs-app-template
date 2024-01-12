@@ -37,7 +37,7 @@
     "@tiptap/starter-kit": "^2.0.3",
     "dayjs": "^1.11.7",
     "fs": "^0.0.1-security",
-    "next": "13.4.12",
+    "next": "13.5.6",
     "next-plausible": "^3.7.2",
     "pretty-ms": "^8.0.0",
     "react": "18.2.0",
