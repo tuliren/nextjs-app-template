@@ -2491,17 +2491,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/modals@npm:^6.0.21":
-  version: 6.0.21
-  resolution: "@mantine/modals@npm:6.0.21"
-  dependencies:
-    "@mantine/utils": "npm:6.0.21"
+"@mantine/modals@npm:^7.5.1":
+  version: 7.5.1
+  resolution: "@mantine/modals@npm:7.5.1"
   peerDependencies:
-    "@mantine/core": 6.0.21
-    "@mantine/hooks": 6.0.21
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 9f231e4de722c904d897e2e312a13f35b0038f47c7e721e350f3d4bcec205fa72131338d31fc805f6733ab0bf72998bfff88ef9e5252ed36c4f2df360df5c0a3
+    "@mantine/core": 7.5.1
+    "@mantine/hooks": 7.5.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: b8c0ac0b602cc2d8fa3210b787d4d13b0a406221efc1b87f2f533f4c77be51597947ab0af722f7a1c3904f488c1b2961051b1da2c322aa9d0c4eddcffb4d0166
   languageName: node
   linkType: hard
 
@@ -13424,7 +13422,7 @@ __metadata:
     "@mantine/dates": "npm:^6.0.21"
     "@mantine/form": "npm:^6.0.21"
     "@mantine/hooks": "npm:^6.0.21"
-    "@mantine/modals": "npm:^6.0.21"
+    "@mantine/modals": "npm:^7.5.1"
     "@mantine/next": "npm:^6.0.21"
     "@mantine/notifications": "npm:^6.0.21"
     "@mantine/nprogress": "npm:^6.0.21"
