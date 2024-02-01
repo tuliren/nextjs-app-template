@@ -2548,17 +2548,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/spotlight@npm:^6.0.21":
-  version: 6.0.21
-  resolution: "@mantine/spotlight@npm:6.0.21"
+"@mantine/spotlight@npm:^7.5.1":
+  version: 7.5.1
+  resolution: "@mantine/spotlight@npm:7.5.1"
   dependencies:
-    "@mantine/utils": "npm:6.0.21"
+    "@mantine/store": "npm:7.5.1"
   peerDependencies:
-    "@mantine/core": 6.0.21
-    "@mantine/hooks": 6.0.21
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: eb77eae4ef17f81ee4efdb49b56af9b77e825e8adaf9fc228518deadb1781d394495bfaa7c1bc115e377cd936dac612e16870bc6d13f64494376b993251fde01
+    "@mantine/core": 7.5.1
+    "@mantine/hooks": 7.5.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 3af7166522e55d521b8d2d4789251cc6ceea130c99162d97e8a6bdcc38e622feedbeb846498b55d2c97c62f2c7e08290f521176b4f9cfccf897137cfa49d36bc
   languageName: node
   linkType: hard
 
@@ -2574,6 +2574,15 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 07f99bd4997eeec4d78a5d0cb5f2acbfd692230f99060ade3adec125c792957e1b7ed8ad5fe3d8d4f98a9b23c1bc9222f5508c43e55ec3dc08649c017276ceeb
+  languageName: node
+  linkType: hard
+
+"@mantine/store@npm:7.5.1":
+  version: 7.5.1
+  resolution: "@mantine/store@npm:7.5.1"
+  peerDependencies:
+    react: ^18.2.0
+  checksum: 2b3b98e9673bec2804b18d167891d92363768e1a4609ba584d85e90fa19fcba951284e350c54c367c1ffdabc3a161700456a7012a9fa3a413eae9a1bfbc781a5
   languageName: node
   linkType: hard
 
@@ -13428,7 +13437,7 @@ __metadata:
     "@mantine/next": "npm:^6.0.21"
     "@mantine/notifications": "npm:^6.0.21"
     "@mantine/nprogress": "npm:^6.0.21"
-    "@mantine/spotlight": "npm:^6.0.21"
+    "@mantine/spotlight": "npm:^7.5.1"
     "@mantine/tiptap": "npm:^6.0.21"
     "@next/eslint-plugin-next": "npm:^14.0.4"
     "@storybook/addon-actions": "npm:^7.0.10"
