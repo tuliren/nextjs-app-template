@@ -1,4 +1,5 @@
 import { AppShell, Container, MantineProvider } from '@mantine/core';
+import '@mantine/core/styles.css';
 import { Notifications } from '@mantine/notifications';
 import PlausibleProvider from 'next-plausible';
 import type { AppProps } from 'next/app';
@@ -19,16 +20,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <PlausibleProvider domain="app-url.com" enabled={enableAnalytics}>
-        <MantineProvider
-          withGlobalStyles
-          withNormalizeCSS
-          theme={{
-            /** mantine theme override */
-            colorScheme: 'light',
-          }}
-        >
+        <MantineProvider>
           <Notifications />
-          <AppShell padding="lg" header={<></>} footer={<></>}>
+          <AppShell padding="lg">
             <Container size="xl">
               <Component {...pageProps} />
             </Container>
