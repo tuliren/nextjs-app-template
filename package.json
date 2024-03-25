@@ -29,7 +29,7 @@
     "@mantine/notifications": "^6.0.21",
     "@mantine/nprogress": "^6.0.21",
     "@mantine/spotlight": "^6.0.21",
-    "@mantine/tiptap": "^6.0.21",
+    "@mantine/tiptap": "^7.6.2",
     "@supabase/supabase-js": "^2.39.2",
     "@tabler/icons-react": "^2.30.0",
     "@tiptap/extension-link": "^2.0.3",

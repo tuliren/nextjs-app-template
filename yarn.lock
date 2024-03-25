@@ -2591,19 +2591,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/tiptap@npm:^6.0.21":
-  version: 6.0.21
-  resolution: "@mantine/tiptap@npm:6.0.21"
-  dependencies:
-    "@mantine/utils": "npm:6.0.21"
+"@mantine/tiptap@npm:^7.6.2":
+  version: 7.6.2
+  resolution: "@mantine/tiptap@npm:7.6.2"
   peerDependencies:
-    "@mantine/core": 6.0.21
-    "@mantine/hooks": 6.0.21
-    "@tabler/icons-react": ">=2.1.0"
-    "@tiptap/extension-link": ^2.0.0-beta.202
-    "@tiptap/react": ^2.0.0-beta.202
-    react: ">=16.8.0"
-  checksum: 3c023d2ac33b0b341d3c656dcccd17d999c6cdc9d714bd8283ba9573e16782032e201b5053184c3026276c96f921a60a8a6bc581e0fcb914f57d34075d8e3f91
+    "@mantine/core": 7.6.2
+    "@mantine/hooks": 7.6.2
+    "@tiptap/extension-link": ">=2.1.12"
+    "@tiptap/react": ">=2.1.12"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: fb50e0f11f8447fe693a3127ea6fa721b8396da4d6e45d03ffe71d64aaec04ae8d9ce314901bd9aa2b8932f41dfb5f3d58e2c47e544456439d5b62713d034180
   languageName: node
   linkType: hard
 
@@ -13429,7 +13427,7 @@ __metadata:
     "@mantine/notifications": "npm:^6.0.21"
     "@mantine/nprogress": "npm:^6.0.21"
     "@mantine/spotlight": "npm:^6.0.21"
-    "@mantine/tiptap": "npm:^6.0.21"
+    "@mantine/tiptap": "npm:^7.6.2"
     "@next/eslint-plugin-next": "npm:^14.0.4"
     "@storybook/addon-actions": "npm:^7.0.10"
     "@storybook/addon-essentials": "npm:^7.0.10"
