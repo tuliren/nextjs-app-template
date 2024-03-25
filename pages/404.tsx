@@ -15,8 +15,8 @@ const Error404: NextPage = () => {
       <SimpleGrid cols={3}>
         <div />
         <Card shadow="sm" p="lg">
-          <Group position="apart" style={{ marginBottom: 5, marginTop: 'sm' }}>
-            <Text weight={700}>404 - Page Not Found</Text>
+          <Group style={{ marginBottom: 5, marginTop: 'sm' }}>
+            <Text w={700}>404 - Page Not Found</Text>
           </Group>
 
           <Button
