@@ -25,7 +25,7 @@
     "@tabler/icons-react": "^2.30.0",
     "@tiptap/extension-link": "^2.0.3",
     "@tiptap/react": "^2.0.3",
-    "@tiptap/starter-kit": "^2.0.3",
+    "@tiptap/starter-kit": "^2.2.4",
     "dayjs": "^1.11.7",
     "fs": "^0.0.1-security",
     "next": "13.5.6",
