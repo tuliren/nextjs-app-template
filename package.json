@@ -47,7 +47,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.3",
+    "@babel/core": "^7.20.12",
     "@next/eslint-plugin-next": "^14.0.4",
     "@storybook/addon-actions": "^7.0.10",
     "@storybook/addon-essentials": "^7.0.10",
