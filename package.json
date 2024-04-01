@@ -21,7 +21,7 @@
     "@mantine/core": "^7.6.2",
     "@mantine/hooks": "^7.6.2",
     "@mantine/notifications": "^7.6.2",
-    "@supabase/supabase-js": "^2.39.2",
+    "@supabase/supabase-js": "^2.41.1",
     "@tabler/icons-react": "^2.30.0",
     "@tiptap/extension-link": "^2.0.3",
     "@tiptap/react": "^2.0.3",
