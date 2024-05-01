@@ -4132,22 +4132,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tabler/icons-react@npm:^2.30.0":
-  version: 2.45.0
-  resolution: "@tabler/icons-react@npm:2.45.0"
+"@tabler/icons-react@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@tabler/icons-react@npm:3.3.0"
   dependencies:
-    "@tabler/icons": "npm:2.45.0"
-    prop-types: "npm:^15.7.2"
+    "@tabler/icons": "npm:3.3.0"
   peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: a153d30d88b87489b44af9dc73e82bc13a9ae18ba33c47e73b8efbe6b36e5a9e61c924aa4f297f6e0a238b630c5b2ade77db2dcad8b1f21c43b356d3ad38086b
+    react: ">= 16"
+  checksum: c5debd4afe94179759662e31a54d9bc7be5ffd081a87b2d5d220b15f2ad92220e016577f61b3df611ae8d42df57bfbca9c5b1ffa404f38e17678cccac42e8ddc
   languageName: node
   linkType: hard
 
-"@tabler/icons@npm:2.45.0":
-  version: 2.45.0
-  resolution: "@tabler/icons@npm:2.45.0"
-  checksum: e221e091554839771774d0d8438d434987fcc7096892b24e53ef4fc78fe3b8087cc047293e3eb2084b3b5b9173c39dbf5aaff8cbbe78be142bc2bf55cf178ec2
+"@tabler/icons@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@tabler/icons@npm:3.3.0"
+  checksum: 8151654fcdd58c948c5594ae6ff297e32b5ca82eaba950c7b00e002f13f2b856ba7867f9a898df8df63425b6c8aff0000534317dd9b6d1ab9efd9abb67c57f6d
   languageName: node
   linkType: hard
 
@@ -13039,7 +13038,7 @@ __metadata:
     "@storybook/react": "npm:^7.0.10"
     "@storybook/testing-library": "npm:^0.1.0"
     "@supabase/supabase-js": "npm:^2.41.1"
-    "@tabler/icons-react": "npm:^2.30.0"
+    "@tabler/icons-react": "npm:^3.3.0"
     "@tiptap/extension-link": "npm:^2.0.3"
     "@tiptap/react": "npm:^2.0.3"
     "@tiptap/starter-kit": "npm:^2.2.4"
