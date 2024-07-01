@@ -4718,15 +4718,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tiptap/extension-link@npm:^2.0.3":
-  version: 2.1.16
-  resolution: "@tiptap/extension-link@npm:2.1.16"
+"@tiptap/extension-link@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@tiptap/extension-link@npm:2.4.0"
   dependencies:
     linkifyjs: "npm:^4.1.0"
   peerDependencies:
     "@tiptap/core": ^2.0.0
     "@tiptap/pm": ^2.0.0
-  checksum: 4a623e4acbc488cca08887bade20e2eb141979d436506181e94ecba2ec33bb9020c6fc46ca349a1889b9ed126afc2f37cdccc6409fae9a06313350c42eda4566
+  checksum: 260d89b349d59728a948ac098b38fbb96ed8472a923ee56ff78e3f3486662abca777d1c19a7ec85120723eaabe97f08dae85fcae09e0c040714ca85e5deb4780
   languageName: node
   linkType: hard
 
@@ -13593,7 +13593,7 @@ __metadata:
     "@storybook/testing-library": "npm:^0.1.0"
     "@supabase/supabase-js": "npm:^2.44.2"
     "@tabler/icons-react": "npm:^3.3.0"
-    "@tiptap/extension-link": "npm:^2.0.3"
+    "@tiptap/extension-link": "npm:^2.4.0"
     "@tiptap/react": "npm:^2.0.3"
     "@tiptap/starter-kit": "npm:^2.2.4"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
