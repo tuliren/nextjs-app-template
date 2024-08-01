@@ -35,7 +35,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-markdown": "^9.0.1",
-    "uuid": "^9.0.0"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.5",
@@ -52,7 +52,7 @@
     "@types/node": "20.1.2",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.22",
-    "@types/uuid": "^9.0.0",
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "babel-loader": "^9.1.2",
     "eslint": "8.40.0",
