@@ -18,7 +18,7 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "@mantine/core": "^7.6.2",
+    "@mantine/core": "^7.11.2",
     "@mantine/hooks": "^7.6.2",
     "@mantine/notifications": "^7.10.1",
     "@supabase/supabase-js": "^2.44.2",
