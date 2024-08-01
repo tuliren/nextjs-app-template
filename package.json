@@ -71,7 +71,7 @@
     "jest": "^29.4.3",
     "jest-html-reporter": "^3.10.2",
     "lint-staged": "^15.2.7",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.40",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^2.8.4",
