@@ -21,7 +21,10 @@
     "@mantine/core": "^7.12.1",
     "@mantine/hooks": "^7.12.1",
     "@mantine/notifications": "^7.12.1",
+    "@radix-ui/react-icons": "^1.3.0",
     "@tabler/icons-react": "^3.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "dayjs": "^1.11.7",
     "fs": "^0.0.1-security",
     "next": "14.1.4",
@@ -30,6 +33,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
