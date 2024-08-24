@@ -18,6 +18,8 @@
     "test": "jest --coverage"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.3",
+    "@heroicons/react": "^2.1.5",
     "@mantine/core": "^7.12.1",
     "@mantine/hooks": "^7.12.1",
     "@mantine/notifications": "^7.12.1",
