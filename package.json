@@ -49,18 +49,15 @@
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.22",
     "@types/uuid": "^9.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
     "babel-loader": "^9.1.2",
-    "eslint": "8.40.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-import": "^0.13.0",
-    "eslint-config-mantine": "3.2.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jest": "^28.8.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "husky": "^9.0.11",
@@ -73,7 +70,8 @@
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.8.1",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "webpack": "^5.94.0"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
