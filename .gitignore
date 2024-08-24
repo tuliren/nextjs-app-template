@@ -134,6 +134,9 @@ dist
 # Jest
 tests/test-report.html
 
+# Storybook
+storybook-static/
+
 .DS_Store
 *.iml
 .idea
