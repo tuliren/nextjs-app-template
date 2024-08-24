@@ -33,8 +33,9 @@ jobs:
           key: ${{ runner.os }}-node-16-${{ hashFiles('yarn.lock') }}
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Lint code
+      - name: Check code
         run: |
+          yarn typecheck
           yarn eslint .
           yarn prettier:check
       - name: Run tests
