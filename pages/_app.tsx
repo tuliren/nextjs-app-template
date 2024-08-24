@@ -26,7 +26,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <MantineProvider>
           <Notifications />
           <AppShell padding="lg">
-            <Container size="xl">
+            <Container pt="xl" size="xl">
               <Component {...pageProps} />
             </Container>
           </AppShell>
