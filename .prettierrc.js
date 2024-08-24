@@ -1,6 +1,6 @@
 module.exports = {
-  ...require('eslint-config-mantine/.prettierrc.js'),
   trailingComma: 'es5',
+  printWidth: 120,
   singleQuote: true,
   tabWidth: 2,
   importOrder: ['^@/(.*)$', '^[./]'],
