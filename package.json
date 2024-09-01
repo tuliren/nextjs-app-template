@@ -29,7 +29,7 @@
     "@tabler/icons-react": "^3.3.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "dayjs": "^1.11.7",
+    "dayjs": "^1.11.13",
     "fs": "^0.0.1-security",
     "next": "14.1.4",
     "next-plausible": "^3.12.0",
