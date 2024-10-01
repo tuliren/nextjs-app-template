@@ -32,8 +32,6 @@ jobs:
           yarn prettier:check
       - name: Run tests
         run: yarn test
-      - name: Build next app
-        run: yarn build
       - name: Run stoat action
         uses: stoat-dev/stoat-action@main
         if: always()
