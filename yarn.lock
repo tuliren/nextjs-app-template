@@ -4001,21 +4001,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tabler/icons-react@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "@tabler/icons-react@npm:3.3.0"
+"@tabler/icons-react@npm:^3.19.0":
+  version: 3.19.0
+  resolution: "@tabler/icons-react@npm:3.19.0"
   dependencies:
-    "@tabler/icons": "npm:3.3.0"
+    "@tabler/icons": "npm:3.19.0"
   peerDependencies:
     react: ">= 16"
-  checksum: c5debd4afe94179759662e31a54d9bc7be5ffd081a87b2d5d220b15f2ad92220e016577f61b3df611ae8d42df57bfbca9c5b1ffa404f38e17678cccac42e8ddc
+  checksum: 8ff8b92aae28ebeeea4d9b017103fd66cfd100f17c753afdcb4b426b6ed899a16c10ff2fb51e006d587d44bdf8ef39935a7bfa1c9898cc3dfa2c313b73b10c39
   languageName: node
   linkType: hard
 
-"@tabler/icons@npm:3.3.0":
-  version: 3.3.0
-  resolution: "@tabler/icons@npm:3.3.0"
-  checksum: 8151654fcdd58c948c5594ae6ff297e32b5ca82eaba950c7b00e002f13f2b856ba7867f9a898df8df63425b6c8aff0000534317dd9b6d1ab9efd9abb67c57f6d
+"@tabler/icons@npm:3.19.0":
+  version: 3.19.0
+  resolution: "@tabler/icons@npm:3.19.0"
+  checksum: b55371b62d86e5d74d1e3986051ff94fc896ca378331ceea48bd9acb286648f7e7ea4f7261b0e3b604e33282c9815453af17185f33e169c30e89500c6006b0c0
   languageName: node
   linkType: hard
 
@@ -12115,7 +12115,7 @@ __metadata:
     "@storybook/nextjs": "npm:^8.2.9"
     "@storybook/react": "npm:^8.2.9"
     "@storybook/test": "npm:^8.2.9"
-    "@tabler/icons-react": "npm:^3.3.0"
+    "@tabler/icons-react": "npm:^3.19.0"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
     "@types/node": "npm:20.1.2"
     "@types/react": "npm:^18.2.47"
