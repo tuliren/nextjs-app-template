@@ -4,3 +4,12 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      storybook:
+        patterns:
+          - storybook
+          - '@storybook/*'
+      mantine:
+        patterns:
+          - mantine
+          - '@mantine/*'
