@@ -11268,7 +11268,7 @@ __metadata:
     react-dom: "npm:^18.3.1"
     react-markdown: "npm:^9.0.1"
     storybook: "npm:^8.4.6"
-    tailwind-merge: "npm:^2.5.2"
+    tailwind-merge: "npm:^2.5.5"
     tailwindcss: "npm:^3.4.10"
     tailwindcss-animate: "npm:^1.0.7"
     ts-jest: "npm:^29.2.5"
@@ -13949,10 +13949,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^2.5.2":
-  version: 2.5.2
-  resolution: "tailwind-merge@npm:2.5.2"
-  checksum: e43a9a468f7ba4ed5b4a399558d96d6270a3d8131dca111cccc803e71cc23885060d18d721f312a24fff0a75c567dbb30b2a87c18aba25eb4255df197d8170ab
+"tailwind-merge@npm:^2.5.5":
+  version: 2.5.5
+  resolution: "tailwind-merge@npm:2.5.5"
+  checksum: 32614dd2b4ddd4fab070d5ec569e6da00e2b34269b9ac2f2ff16733cef29a076c8e2210fbfc1904d7983a8fdb6b3e63d18ca117645f21b12ca7bcf8fe3507241
   languageName: node
   linkType: hard
 
