@@ -13,3 +13,6 @@ updates:
         patterns:
           - mantine
           - '@mantine/*'
+      all-dependencies:
+        patterns:
+          - "*"
