@@ -83,7 +83,7 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.8.1",
     "typescript": "5.0.4",
-    "webpack": "^5.97.1"
+    "webpack": "^5.98.0"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
