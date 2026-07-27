@@ -19,7 +19,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <PlausibleProvider domain="app-url.com" enabled={enableAnalytics}>
+      {/* next-plausible v4: replace src with your site-specific script URL from the
+          Plausible dashboard, e.g. https://plausible.io/js/pa-XXXXX.js */}
+      <PlausibleProvider src="https://plausible.io/js/pa-XXXXX.js" enabled={enableAnalytics}>
         <main className="mx-auto w-full max-w-screen-xl px-4 pt-8">
           <Component {...pageProps} />
         </main>
