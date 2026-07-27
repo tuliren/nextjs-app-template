@@ -1,6 +1,7 @@
 import nextCoreWebVitals from 'eslint-config-next/core-web-vitals';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import jestPlugin from 'eslint-plugin-jest';
+import storybook from 'eslint-plugin-storybook';
 
 /** @type {import('eslint').Linter.Config[]} */
 const config = [
@@ -40,6 +41,8 @@ const config = [
     files: ['tests/**/*.{ts,tsx}', '**/*.test.{ts,tsx}'],
     ...jestPlugin.configs['flat/recommended'],
   },
+  // Lints Storybook story files (https://github.com/storybookjs/eslint-plugin-storybook).
+  ...storybook.configs['flat/recommended'],
   // Keep last: disables ESLint rules that conflict with Prettier.
   eslintConfigPrettier,
 ];
