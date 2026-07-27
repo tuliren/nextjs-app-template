@@ -1,7 +1,9 @@
-import { Button, Card, Group, SimpleGrid, Text } from '@mantine/core';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Error404: NextPage = () => {
   const router = useRouter();
@@ -12,28 +14,23 @@ const Error404: NextPage = () => {
         <title>404 Page Not Found</title>
       </Head>
 
-      <SimpleGrid cols={3}>
-        <div />
-        <Card shadow="sm" p="lg">
-          <Group style={{ marginBottom: 5, marginTop: 'sm' }}>
-            <Text w={700}>404 - Page Not Found</Text>
-          </Group>
-
-          <Button
-            variant="light"
-            color="blue"
-            fullWidth={false}
-            loading={false}
-            style={{ marginTop: 14 }}
-            onClick={async () => {
-              await router.push('/');
-            }}
-          >
-            Go to Homepage
-          </Button>
+      <div className="flex justify-center">
+        <Card className="w-full max-w-sm">
+          <CardHeader>
+            <CardTitle>404 - Page Not Found</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <Button
+              variant="secondary"
+              onClick={async () => {
+                await router.push('/');
+              }}
+            >
+              Go to Homepage
+            </Button>
+          </CardContent>
         </Card>
-        <div />
-      </SimpleGrid>
+      </div>
     </>
   );
 };
