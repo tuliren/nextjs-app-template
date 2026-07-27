@@ -9,8 +9,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Next.js App</title>
-        <meta name="description" content="A Next.js application" />
+        <title>App Template</title>
+        <meta name="description" content="A web application template" />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
