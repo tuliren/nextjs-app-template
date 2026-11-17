@@ -59,7 +59,7 @@
     "next-sitemap": "^4.2.3",
     "postcss": "^8.5.23",
     "prettier": "^3.9.6",
-    "storybook": "^10.5.4",
+    "storybook": "^10.6.2",
     "tailwindcss": "^4.3.3",
     "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
